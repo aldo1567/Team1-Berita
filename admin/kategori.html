@@ -9,14 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dunia Dalam Berita</title>
+    <title>SB Admin - Bootstrap Admin Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/sb-admin.css" rel="stylesheet">
-    <link rel="stylesheet" href="kategori.css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -28,9 +27,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-
 
 </head>
 
@@ -67,7 +63,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="../index.html"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                         </li>
                     </ul>
                 </li>
@@ -76,34 +72,15 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="index.html"><i class="fa fa-database"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
+                        <a href="kategori.html"><i class="fa fa-fw fa-bar-chart-o"></i> Kategori</a>
                     </li>
                     <li>
-                        <a href="tables.html"><i class="fa fa-fw fa-table"></i> Tables</a>
+                        <a href="berita.html"><i class="fa fa-fw fa-table"></i> Berita</a>
                     </li>
-                    <li>
-                        <a href="forms.html"><i class="fa fa-fw fa-edit"></i> Forms</a>
-                    </li>
-                    <li>
-                        <a href="bootstrap-elements.html"><i class="fa fa-fw fa-desktop"></i> Bootstrap Elements</a>
-                    </li>
-                    <li>
-                        <a href="bootstrap-grid.html"><i class="fa fa-fw fa-wrench"></i> Bootstrap Grid</a>
-                    </li>
-                    <li>
-                        <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i
-                                class="fa fa-fw fa-arrows-v"></i> Dropdown <i class="fa fa-fw fa-caret-down"></i></a>
-                        <ul id="demo" class="collapse">
-                            <li>
-                                <a href="#">Dropdown Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Dropdown Item</a>
-                            </li>
-                        </ul>
+
                     </li>
                 </ul>
             </div>
@@ -118,221 +95,129 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 class="page-header">
-                            <<<<<<< HEAD:admin/index.html Admin Site=======Kategori>>>>>>> lukman:admin/kategori.html
+                            Kategori
                         </h1>
                         <ol class="breadcrumb">
                             <li>
                                 <i class="fa fa-dashboard"></i> <a href="index.html">Dashboard</a>
                             </li>
                             <li class="active">
-                                <<<<<<< HEAD:admin/index.html <i class="fa fa-dashboard"></i> Dashboard
-                                    =======
-                                    <i class="fa fa-file"></i> kategori
-                                    >>>>>>> lukman:admin/kategori.html
+                                <i class="fa fa-file"></i> kategori
                             </li>
                         </ol>
                     </div>
                 </div>
-                <<<<<<< HEAD:admin/index.html <!-- /.row -->
-                    <!-- admin widget -->
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <div class="row">
-                                        <div class="col-xs-3">
-                                            <i class="fa fa-file-text fa-5x"></i>
-                                        </div>
-                                        <div class="col-xs-9 text-right">
-                                            <div class='huge'>12</div>
-                                            <div>Berita</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="berita.html">
-                                    <div class="panel-footer">
-                                        <span class="pull-left">View Details</span>
-                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="panel panel-green">
-                                <div class="panel-heading">
-                                    <div class="row">
-                                        <div class="col-xs-3">
-                                            <i class="fa fa-comments fa-5x"></i>
-                                        </div>
-                                        <div class="col-xs-9 text-right">
-                                            <div class='huge'>23</div>
-                                            <div>Kategori</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="kategori.html">
-                                    <div class="panel-footer">
-                                        <span class="pull-left">View Details</span>
-                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- google chart -->
-                    <!-- /.row -->
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <script type="text/javascript">
-                                google.charts.load('current', {
-                                    'packages': ['bar']
-                                });
-                                google.charts.setOnLoadCallback(drawChart);
-
-                                function drawChart() {
-                                    var data = google.visualization.arrayToDataTable([
-                                        ['Data', 'Jumlah'],
-                                        ['Berita', 4],
-                                        ['Kategori', 4]
-                                    ]);
-
-                                    var options = {
-                                        chart: {
-                                            title: 'Dashboard',
-                                            subtitle: 'Berita & Category',
-                                        }
-                                    };
-
-                                    var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
-
-                                    chart.draw(data, google.charts.Bar.convertOptions(options));
-                                }
-                            </script>
-                            <div id="columnchart_material" style="width: auto; height: 500px;"></div>
-                        </div>
-                    </div>
-
-                    <!-- /.row -->
-
-                    =======
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="table-responsive">
-                                <div class="container-fluid ">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr role="row">
-                                                        <th>No</th>
-                                                        <th>Nama</th>
-                                                        <th>Status</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Kesehatan</td>
-                                                        <td>Aktif</td>
-                                                        <td class="text-right">
-                                                            <a target="_blank" href="arahin ke kategori"><button
-                                                                    class="btn btn-primary"><i class="fas fa-eye"></i>
-                                                                    Lihat</button></a>
-                                                            <a data-id="760"><button class="btn btn-danger"><i
-                                                                        class="fas fa-trash"></i>
-                                                                    Hapus</button></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>Olahraga</td>
-                                                        <td>Aktif</td>
-                                                        <td class="text-right">
-                                                            <a target="_blank" href="arahin ke kategori"><button
-                                                                    class="btn btn-primary"><i class="fas fa-eye"></i>
-                                                                    Lihat</button></a>
-                                                            <a data-id="760"><button class="btn btn-danger"><i
-                                                                        class="fas fa-trash"></i>
-                                                                    Hapus</button></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="sorting_1">3</td>
-                                                        <td>Teknologi</td>
-                                                        <td>Aktif</td>
-                                                        <td class="text-right">
-                                                            <a target="_blank" href="arahin ke kategori"><button
-                                                                    class="btn btn-primary"><i class="fas fa-eye"></i>
-                                                                    Lihat</button></a>
-                                                            <a data-id="760"><button class="btn btn-danger"><i
-                                                                        class="fas fa-trash"></i>
-                                                                    Hapus</button></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>Otomotif</td>
-                                                        <td>Aktif</td>
-                                                        <td class="text-right">
-                                                            <a target="_blank" href="arahin ke kategori"><button
-                                                                    class="btn btn-primary"><i class="fas fa-eye"></i>
-                                                                    Lihat</button></a>
-                                                            <a data-id="760"><button class="btn btn-danger"><i
-                                                                        class="fas fa-trash"></i>
-                                                                    Hapus</button></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>Wisata</td>
-                                                        <td>Tidak Aktif</td>
-                                                        <td class="text-right">
-                                                            <button class="btn btn-primary disabled"><i
-                                                                    class="fas fa-eye"></i>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <table class="table">
+                                            <thead>
+                                                <tr role="row">
+                                                    <th>No</th>
+                                                    <th>Nama</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Kesehatan</td>
+                                                    <td>Aktif</td>
+                                                    <td class="text-right">
+                                                        <a target="_blank" href="arahin ke kategori"><button
+                                                                class="btn btn-primary"><i class="fas fa-eye"></i>
                                                                 Lihat</button></a>
-                                                            <a data-id="760"><button class="btn btn-danger"><i
-                                                                        class="fas fa-trash"></i>
-                                                                    Hapus</button></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Ekonomi</td>
-                                                        <td>Tidak Aktif</td>
-                                                        <td class="text-right">
-                                                            <button class="btn btn-primary disabled"><i
-                                                                    class="fas fa-eye"></i>
+                                                        <a data-id="760"><button class="btn btn-danger"><i
+                                                                    class="fas fa-trash"></i>
+                                                                Hapus</button></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Olahraga</td>
+                                                    <td>Aktif</td>
+                                                    <td class="text-right">
+                                                        <a target="_blank" href="arahin ke kategori"><button
+                                                                class="btn btn-primary"><i class="fas fa-eye"></i>
                                                                 Lihat</button></a>
-                                                            <a data-id="760"><button class="btn btn-danger"><i
-                                                                        class="fas fa-trash"></i>
-                                                                    Hapus</button></a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                                        <a data-id="760"><button class="btn btn-danger"><i
+                                                                    class="fas fa-trash"></i>
+                                                                Hapus</button></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sorting_1">3</td>
+                                                    <td>Teknologi</td>
+                                                    <td>Aktif</td>
+                                                    <td class="text-right">
+                                                        <a target="_blank" href="arahin ke kategori"><button
+                                                                class="btn btn-primary"><i class="fas fa-eye"></i>
+                                                                Lihat</button></a>
+                                                        <a data-id="760"><button class="btn btn-danger"><i
+                                                                    class="fas fa-trash"></i>
+                                                                Hapus</button></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Otomotif</td>
+                                                    <td>Aktif</td>
+                                                    <td class="text-right">
+                                                        <a target="_blank" href="arahin ke kategori"><button
+                                                                class="btn btn-primary"><i class="fas fa-eye"></i>
+                                                                Lihat</button></a>
+                                                        <a data-id="760"><button class="btn btn-danger"><i
+                                                                    class="fas fa-trash"></i>
+                                                                Hapus</button></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Wisata</td>
+                                                    <td>Tidak Aktif</td>
+                                                    <td class="text-right">
+                                                        <button class="btn btn-primary disabled"><i
+                                                                class="fas fa-eye"></i>
+                                                            Lihat</button></a>
+                                                        <a data-id="760"><button class="btn btn-danger"><i
+                                                                    class="fas fa-trash"></i>
+                                                                Hapus</button></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Ekonomi</td>
+                                                    <td>Tidak Aktif</td>
+                                                    <td class="text-right">
+                                                        <button class="btn btn-primary disabled"><i
+                                                                class="fas fa-eye"></i>
+                                                            Lihat</button></a>
+                                                        <a data-id="760"><button class="btn btn-danger"><i
+                                                                    class="fas fa-trash"></i>
+                                                                Hapus</button></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    >>>>>>> lukman:admin/kategori.html
+                </div>
             </div>
         </div>
-        <<<<<<< HEAD:admin/index.html <!-- /#page-wrapper -->
-            <div class="container-fluid">
-                =======
-            </div>
-            <!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-            </di v>
-            <!-- /.container-fluid -->
+    </di v>
+    <!-- /.container-fluid -->
 
     </div>
     <!-- /#page-wrapper -->
-    >>>>>>> lukman:admin/kategori.html
 
     </div>
     <!-- /#wrapper -->
@@ -342,7 +227,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <div id="columnchart_values" style="width: 900px; height: 300px;"></div>
 
 </body>
 
