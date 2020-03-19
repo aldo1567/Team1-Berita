@@ -16,6 +16,9 @@
 
     <!-- Custom CSS -->
     <link href="css/blog-home.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans+Condensed:300&display=swap"
+        rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,13 +36,14 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -68,57 +72,221 @@
             <!-- Blog Entries Column -->
             <div class="col-md-8">
 
-                <h1 class="page-header">
-                    Page Heading
-                    <small>Secondary Text</small>
+                <h1 class="page-header" style="
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-family: 'Bebas Neue', cursive; 
+                font-weight: bold;">
+                    <img src="gambar/world.png" style="width: 100px;" alt="">DUNIA DALAM BERITA
+                    <small>.id</small>
                 </h1>
 
                 <!-- First Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
+                <h2 id="kesehatan">
+                    <a href="post1.html">Pemerintah RI Rencanakan Gelar Drive-thru Tes Corona ala Korea</a>
                 </h2>
                 <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
+                    Category <a href="">Kesehatan</a>
                 </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on Maret 19, 2020 at 10:00 PM</p>
                 <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <img class="img-responsive" src="gambar/kesehatan.jpg" alt="" width="900">
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, veritatis, tempora, necessitatibus inventore nisi quam quia repellat ut tempore laborum possimus eum dicta id animi corrupti debitis ipsum officiis rerum.</p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p><b>Jakarta</b> -Pakar epidemi, dokter, hingga anggota Dewan menyerukan tes virus Corona secara masif
+                    dilakukan di Indonesia. Korea Selatan jadi rujukan. Pemerintah menyatakan sudah punya rencana
+                    menggelar drive-thru tes Corona ala Korea Selatan di Indonesia.</p>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Read More
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Pemerintah RI Rencanakan Gelar Drive-thru Tes
+                                    Corona ala Korea</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-responsive" src="gambar/kesehatan.jpg" alt="" width="500">
+                                <br>
+                                "Sudah beberapa hari ini kita bicarakan mengenai hal tersebut," kata juru bicara
+                                Penanganan COVID-19, Achmad Yurianto, kepada detikcom, Rabu (18/3/2020)
+                                <br>
+                                Dengan adanya drive-thru tes Corona, warga bakal lebih mudah menjangkau tes tersebut.
+                                Korea bisa melakukan tes tersebut dengan ketersediaan test kit yang mereka produksi
+                                sendiri. Lalu bagaimana dengan test kit yang akan dipakai drive-thru tes Corona di
+                                Indonesia nanti? Yuri mengatakan test kit-nya juga berasal dari Korea.
+                                <br>
+                                "Kita sudah merencanakan dan membicarakan sekarang, karena kit-nya harus didatangkan
+                                dari Korea," kata Yuri.
+                                Belum ada keterangan lebih rinci. Namun pemerintah memastikan ini bukan wacana.
+                                <br>
+                                "Secepatnya pasti, sebanyak mungkin," kata Yuri.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <hr>
 
                 <!-- Second Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
+                <h2 id="olahraga">
+                    <a href="post2.html">Klopp Tetap Santuy andai Liverpool Gagal Juara Liga Inggris Musim Ini</a>
                 </h2>
                 <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
+                    Category <a href="index.php">Olahraga</a>
                 </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on Maret 19, 2020 at 10:45 PM</p>
                 <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <img class="img-responsive" src="gambar/jurgen.jpg" alt="" width="900">
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, quasi, fugiat, asperiores harum voluptatum tenetur a possimus nesciunt quod accusamus saepe tempora ipsam distinctio minima dolorum perferendis labore impedit voluptates!</p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p>Peluang Liverpool menjuarai Liga Inggris terancam sirna menyusul pandemi virus corona yang juga
+                    melanda Inggris. Namun manajer The Reds, Juergen Klopp, tak lantas khawatir dengan hal itu.</p>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">Read
+                    More's</button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Klopp Tetap Santuy andai Liverpool Gagal Juara
+                                    Liga Inggris Musim Ini</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-responsive" src="gambar/jurgen.jpg" alt="" width="500">
+                                <br>
+                                Liverpool -
+
+                                Peluang Liverpool menjuarai Liga Inggris terancam sirna menyusul pandemi virus corona
+                                yang juga melanda Inggris. Namun manajer The Reds, Juergen Klopp, tak lantas khawatir
+                                dengan hal itu.<br>
+
+                                Di dataran Britania Raya, virus corona sudah menginfeksi lebih dari 2.600 orang, 60 di
+                                antaranya tak selamat. Wabah ini membuat seluruh agenda olahraga di Inggris harus rehat,
+                                termasuk Liga Inggris yang diliburkan setidaknya sampai 3 April.<br>
+
+                                Kondisi ini jelas mengganggu momentum Liverpool. Mereka hanya berjarak dua kemenangan
+                                lagi untuk memastikan trofi Liga Inggris pertama dalam 30 tahun.<br>
+
+                                Bahkan jika penyebaran virus corona tak cepat ditekan, ada kemungkinan kompetisi harus
+                                ditunda lebih lama, yang mana akan semakin mengancam peluang juara Liverpool.
+                                <br>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr>
 
                 <!-- Third Blog Post -->
-                <h2>
-                    <a href="#">Blog Post Title</a>
+                <h2 id="teknologi">
+                    <a href="post3.html">Vivo V19, Jagoan Foto Malam yang Punya Punch Hole Terkecil</a>
                 </h2>
                 <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
+                    Category <a href="index.php">Teknologi</a>
                 </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on Maret 19, 2020 at 10:45 PM</p>
                 <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+                <img class="img-responsive" src="gambar/vovo1.jpg" alt="" width="900" height="300">
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, voluptates, voluptas dolore ipsam cumque quam veniam accusantium laudantium adipisci architecto itaque dicta aperiam maiores provident id incidunt autem. Magni, ratione.</p>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <p>Generasi terbaru dari Vivo V series telah mendarat.</p>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">Read
+                    More's</button>
 
+                <!-- Modal -->
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Vivo V19, Jagoan Foto Malam yang Punya Punch
+                                    Hole Terkecil</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-responsive" src="gambar/vovo1.jpg" alt="" width="500">
+                                <br>
+                                Generasi terbaru dari Vivo V series telah mendarat. Vivo V19, hadir dengan layar Ultra O
+                                Screen dengan ukuran punch hole terkecil di kelasnya dan fitur kamera yang tetap bagus
+                                meski di malam hari. Dengan desain yang trendy, Vivo V19 siap menjadi andalan anak muda
+                                masa kini!
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Fourth Blog Post -->
+                <h2 id="otomotif">
+                    <a href="#">Mitsubishi Eclipse Cross, SUV Bermesin Turbo dengan Tampilan Kekar</a>
+                </h2>
+                <p class="lead">
+                    Category <a href="index.php">Otomotif</a>
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on Maret 19, 2020 at 10:45 PM</p>
+                <hr>
+                <img class="img-responsive" src="gambar/mobil.jpg" alt="" width="900" height="200">
+                <hr>
+                <p>Mitsubishi Eclipse Cross menjadi penantang kuat di segmen SUV medium, berbekal desain agresif
+                    diimbangi mesin turbo berperforma tangguh. Dengan sederet fitur yang dimiliki, Eclipse Cross
+                    memiliki performa dan kenyamanan yang memikat.</p>
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">Read
+                    More's</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Mitsubishi Eclipse Cross, SUV Bermesin Turbo
+                                    dengan Tampilan Kekar</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-responsive" src="gambar/mobil.jpg" alt="" width="500">
+                                <br>
+                                Jakarta -
+
+                                Mitsubishi Eclipse Cross menjadi penantang kuat di segmen SUV medium, berbekal desain
+                                agresif diimbangi mesin turbo berperforma tangguh. Dengan sederet fitur yang dimiliki,
+                                Eclipse Cross memiliki performa dan kenyamanan yang memikat.<br>
+
+                                Desain fascia mobil menampilkan konsep Dynamic Shield yang menjadi paten global pabrikan
+                                berlogo tiga berlian. Bentuk body meruncing dengan lekuk tajam menonjolkan aura maskulin
+                                pada Eclipse Cross.<br>
+
+                                Sepasang headlight LED sipit dengan Daytime Running Light (DRL) memenuhi area depan
+                                mobil. Penempatan grill dan lis krom bentuk perisai di bumper menyiratkan kemewahan dari
+                                mobil berharga nyaris setengah miliar.<br>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr>
 
                 <!-- Pager -->
@@ -136,50 +304,22 @@
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
 
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4>Blog Search</h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
                 <!-- Blog Categories Well -->
                 <div class="well">
                     <h4>Blog Categories</h4>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#kesehatan">Kesehatan</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#olahraga">Olahraga</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#teknologi">Teknologi</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#otomotif">Otomotif</a>
                                 </li>
                             </ul>
                         </div>
-                        <!-- /.col-lg-6 -->
                     </div>
                     <!-- /.row -->
                 </div>
@@ -187,7 +327,8 @@
                 <!-- Side Widget Well -->
                 <div class="well">
                     <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci
+                        accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
                 </div>
 
             </div>
