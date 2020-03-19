@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Home - Start Bootstrap Template</title>
+    <title>Dunia Dalam Berita</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,13 +49,41 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal"
+                            style="margin-top: 7px;">
+                            Login As Admin
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Login Form</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control text-center" name="" id=""
+                                                placeholder="Masukan Username" autofocus>
+                                            <div style="margin-top: 10px;"></div>
+                                            <input type="text" class="form-control text-center" name="" id=""
+                                                placeholder="Masukan Password">
+                                            <div style="margin-top: 10px;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        <a href="/admin/index.html"><button type="button"
+                                                class="btn btn-success">Login</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -237,7 +265,7 @@
 
                 <!-- Fourth Blog Post -->
                 <h2 id="otomotif">
-                    <a href="#">Mitsubishi Eclipse Cross, SUV Bermesin Turbo dengan Tampilan Kekar</a>
+                    <a href="post4.html">Mitsubishi Eclipse Cross, SUV Bermesin Turbo dengan Tampilan Kekar</a>
                 </h2>
                 <p class="lead">
                     Category <a href="index.php">Otomotif</a>
@@ -325,46 +353,47 @@
                 </div>
                 <div class="card mb-3" style="max-width: 540px; border: 1px solid grey; border-radius: 5px;">
                     <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="gambar/hp.jpg" class="card-img" alt="..." width="100px" height="130px">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Samsung S10</h5>
-                          <p class="card-text">SAMSUNG mengeluarkan Flagshift nya pada 2020 untuk melawan IPhone Ten</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="col-md-4">
+                            <img src="gambar/hp.jpg" class="card-img" alt="..." width="100px" height="130px">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Samsung S10</h5>
+                                <p class="card-text">SAMSUNG mengeluarkan Flagshift nya pada 2020 untuk melawan IPhone
+                                    Ten</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <br>
                 <div class="card mb-3" style="max-width: 540px; border: 1px solid grey; border-radius: 5px;">
                     <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="gambar/xiaomi.jpg" class="card-img" alt="..." width="100px" height="130px">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Redmi 8</h5>
-                          <p class="card-text">Redmi 8, Ram 4 Giga Memory 64 Giga hanya 1Jt an</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="col-md-4">
+                            <img src="gambar/xiaomi.jpg" class="card-img" alt="..." width="100px" height="130px">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Redmi 8</h5>
+                                <p class="card-text">Redmi 8, Ram 4 Giga Memory 64 Giga hanya 1Jt an</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <br>
                 <div class="card mb-3" style="max-width: 540px; border: 1px solid grey; border-radius: 5px;">
                     <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="gambar/a10.jpg" class="card-img" alt="..." width="100px" height="130px">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Samsung A10</h5>
-                          <p class="card-text">Samsung A10, Ram 2 Giga Memory 32 Giga hanya 800 ribuan</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="col-md-4">
+                            <img src="gambar/a10.jpg" class="card-img" alt="..." width="100px" height="130px">
                         </div>
-                      </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Samsung A10</h5>
+                                <p class="card-text">Samsung A10, Ram 2 Giga Memory 32 Giga hanya 800 ribuan</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
